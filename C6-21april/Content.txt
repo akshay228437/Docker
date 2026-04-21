@@ -1,0 +1,9 @@
+EXTRA CLASS:
+
+COVERAGE :
+    - NAMESPACE
+    - CGROUP 
+    - union file system
+    - UTS namespace lab
+    - Writing Dockerfile for Python app
+    - CMD vs ENTRY POINT
