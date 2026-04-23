@@ -1,0 +1,78 @@
+# Q2 – Concept Guide: Running an Interactive Container
+
+## 🎯 Goal
+
+Learn how to:
+
+* Pull and run a base image
+* Start an **interactive container session**
+* Execute commands inside a container
+* Understand basic container lifecycle
+
+---
+
+## 📥 1. Image Pull
+
+### Key Concept
+
+* Docker downloads images from a registry (default: official source)
+* Base images like Ubuntu are used to create isolated environments
+
+### Why it matters
+
+* Ensures the environment is consistent and reproducible
+
+---
+
+## 🚀 2. Run Interactive Container
+
+### Key Concepts
+
+* Containers can run in **interactive mode**
+* You can attach a terminal session to interact directly
+* Containers can be **named** for easier identification
+
+### What to understand
+
+* Interactive mode keeps STDIN open
+* Shell-based access allows real-time execution inside container
+
+---
+
+## 💻 3. Execute Command Inside Container
+
+### Key Concept
+
+* Commands run inside a container use its **isolated environment**
+* System info commands help verify container OS context
+
+### Purpose of this step
+
+* Confirms container is running expected Linux environment (Ubuntu)
+
+---
+
+## 🔁 4. Container Lifecycle
+
+### Key Concept
+
+* Exiting an interactive container does NOT delete it
+* Container moves to a **stopped state**
+
+### What to know
+
+* Containers persist until explicitly removed
+* You can list running vs stopped containers separately
+
+---
+
+## 🧠 Key Takeaways
+
+* Images are templates, containers are running instances
+* Interactive mode allows direct access to container shell
+* Containers persist even after exit (stopped state)
+* Lifecycle management is core to Docker usage
+
+---
+
+> Focus: Understand image → container → execution → stopped state flow
